@@ -128,7 +128,8 @@ for i in *.nc; do
   x=$((x+1))
 done
 
-# Convert to mp4
+# Convert to mp4. Stole this from Nat Lash.
+# https://github.com/lashback/GOES-16-scripts
 cd ../final && \
 ffmpeg \
   -r 18 \
